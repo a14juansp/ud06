@@ -18,8 +18,8 @@
 				$db=null;
 					
 				// echo sizeOf($productos);
-					var_dump($productos);
-				//echo json_encode($productos);
+				//	var_dump($productos);
+				echo json_encode($productos);
 				
 			}
 			catch (PDOException $e) {
